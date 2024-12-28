@@ -204,7 +204,7 @@ end)
 
 Section3:NewButton("Step 8", "You Should Have All After This", function()
 local items = {
-    "Purple Orb", "Yellow Orb", "Red Orb", "Abyss Soul", "Demon Bullet", "Yellow Orb"
+    "Purple Orb", "Yellow Orb", "Red Orb", "Abyss Soul", "Demon Bullet"
 }
 
 for _, item in ipairs(items) do
