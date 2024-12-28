@@ -1,25 +1,18 @@
-if game.CoreGui:FindFirstChild("TheChosenBad") then
-  game.CoreGui.TheChosenBad:Destroy()
-end
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/ProScripter123/Script/refs/heads/main/KavoUINameDisabler"))()
 
 local Window = Library.CreateLib("Proxima Hub[AWTD]", "Ocean")
 local Tab = Window:NewTab("OP")
-local Section = Tab:NewSection("Use It Before Patched!")
+local Section = Tab:NewSection("Quest And Early Acces Character Only")
 
 local Tab2 = Window:NewTab("Credits")
 local Section2 = Tab2:NewSection("Made By iEnz")
 local Section2 = Tab2:NewSection("Credit To Howsly For Premium Battlepass")
-local Section2 = Tab2:NewSection("Credit To nkam For Inf Items Big Thanks To Him")
 local Section2 = Tab2:NewSection("Proxima Hub Status : Not Patched")
-
-local Tab3 = Window:NewTab("Inf Items")
-local Section3 = Tab3:NewSection("You Gonna Get Kick And Rejoin And Do All Step For Do it")
 
 local Auto = Window:NewTab("Auto")
 local Auto = Auto:NewSection("Tell Me If Bug Still Beta")
 
-Section:NewButton("Unlock ALL Banner(For Beginners)", "All banner will Visible To You", function()
+Section:NewButton("Unlock ALL Banner", "All banner will Visible To You", function()
 while task.wait() do
 print("Unlocked ALL Banner")
 game.Players.LocalPlayer.PlayerGui.GachaUI.UI.BannerList.Banner2.Visible = true
@@ -100,132 +93,4 @@ end)
 Auto:NewButton("Stop", "VERY OP STUFF", function()
 print("Stopped")
 IsRolling = false
-end)
-
-
-Section3:NewButton("Step 1", "Do All Step For Inf", function()
-local items = {
-    "Abyss Fragment", "Ado Medal", "Ancient Orb", "Ancient Shell", "Angry Ghost", "Arrancar Medal", "Blood Tear", "Broken Heavenly Spear"
-}
-
-for _, item in ipairs(items) do
-    local args = {
-        [1] = item,
-        [2] = 0 / 0
-    }
-    game:GetService("ReplicatedStorage"):WaitForChild("Remote"):WaitForChild("Item"):WaitForChild("CraftItem"):InvokeServer(unpack(args))
-end
-end)
-
-Section3:NewButton("Step 2", "Do All Step For Inf", function()
-local items = {
-    "Calamity Orb", "Chaos Medal", "Crimson Cloud Medal", "Cursed Doll", "Cursed Orb", "Dark Spirit", "Demon Blood", "Demon Bullet"
-}
-
-for _, item in ipairs(items) do
-    local args = {
-        [1] = item,
-        [2] = 0 / 0
-    }
-    game:GetService("ReplicatedStorage"):WaitForChild("Remote"):WaitForChild("Item"):WaitForChild("CraftItem"):InvokeServer(unpack(args))
-end
-end)
-
-Section3:NewButton("Step 3", "Do All Step For Inf", function()
-local items = {
-    "Demonic Heart", "Devil Horn", "Evil Fruit", "Flame Fruit", "Freezing Ice", "God Clock", "God Ear Ring", "Grand Token", "Hollow Shard"
-}
-
-for _, item in ipairs(items) do
-    local args = {
-        [1] = item,
-        [2] = 0 / 0
-    }
-    game:GetService("ReplicatedStorage"):WaitForChild("Remote"):WaitForChild("Item"):WaitForChild("CraftItem"):InvokeServer(unpack(args))
-end
-end)
-
-Section3:NewButton("Step 4", "Do All Step For Inf", function()
-local items = {
-    "Idol Postcard", "Kriezer Medal", "Mask", "Mystical Crystal", "Ninetails Energy", "Ninja Scroll", "Peace Medal", "Phantom Mark"
-}
-
-for _, item in ipairs(items) do
-    local args = {
-        [1] = item,
-        [2] = 0 / 0
-    }
-    game:GetService("ReplicatedStorage"):WaitForChild("Remote"):WaitForChild("Item"):WaitForChild("CraftItem"):InvokeServer(unpack(args))
-end
-end)
-
-Section3:NewButton("Step 5", "Do All Step For Inf", function()
-local items = {
-    "Primal Sea", "Pure Water", "Quincy Core", "Reaper Apple", "Red Jewel", "Regeneration Bean", "Sadness Ghost", "Sea Master Key"
-}
-
-for _, item in ipairs(items) do
-    local args = {
-        [1] = item,
-        [2] = 0 / 0
-    }
-    game:GetService("ReplicatedStorage"):WaitForChild("Remote"):WaitForChild("Item"):WaitForChild("CraftItem"):InvokeServer(unpack(args))
-end
-
-end)
-
-Section3:NewButton("Step 6", "Do All Step For Inf", function()
-local items = {
-    "Sea Shell", "Smiley Ghost", "Sombra Medal", "Stone Mask", "Straw Hat", "Susanoo Energy", "The Element", "Universal Material"
-}
-
-for _, item in ipairs(items) do
-    local args = {
-        [1] = item,
-        [2] = 0 / 0
-    }
-    game:GetService("ReplicatedStorage"):WaitForChild("Remote"):WaitForChild("Item"):WaitForChild("CraftItem"):InvokeServer(unpack(args))
-end
-end)
-
-Section3:NewButton("Step 7", "Do All Step For Inf", function()
-local items = {
-    "Uzumaki", "Wisteria", "Red Orb", "Abyss Soul", "Demon Bullet", "Yellow Orb"
-}
-
-for _, item in ipairs(items) do
-    local args = {
-        [1] = item,
-        [2] = 0 / 0
-    }
-    game:GetService("ReplicatedStorage"):WaitForChild("Remote"):WaitForChild("Item"):WaitForChild("CraftItem"):InvokeServer(unpack(args))
-end
-end)
-
-Section3:NewButton("Step 8", "You Should Have All After This", function()
-local items = {
-    "Purple Orb", "Yellow Orb", "Red Orb", "Abyss Soul", "Demon Bullet"
-}
-
-for _, item in ipairs(items) do
-    local args = {
-        [1] = item,
-        [2] = 0 / 0
-    }
-    game:GetService("ReplicatedStorage"):WaitForChild("Remote"):WaitForChild("Item"):WaitForChild("CraftItem"):InvokeServer(unpack(args))
-end
-end)
-
-Section3:NewTextBox("Custom Inf Items", "Custom Since You Don't Get Nan", function(txt)
-local items = {
-    (txt)
-}
-
-for _, item in ipairs(items) do
-    local args = {
-        [1] = item,
-        [2] = 0 / 0
-    }
-    game:GetService("ReplicatedStorage"):WaitForChild("Remote"):WaitForChild("Item"):WaitForChild("CraftItem"):InvokeServer(unpack(args))
-end
 end)
