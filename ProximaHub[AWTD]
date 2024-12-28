@@ -201,3 +201,17 @@ for _, item in ipairs(items) do
     game:GetService("ReplicatedStorage"):WaitForChild("Remote"):WaitForChild("Item"):WaitForChild("CraftItem"):InvokeServer(unpack(args))
 end
 end)
+
+Section3:NewTextBox("Custom Inf Items", "Custom Since You Don't Get Nan", function(txt)
+local items = {
+    (txt)
+}
+
+for _, item in ipairs(items) do
+    local args = {
+        [1] = item,
+        [2] = 0 / 0
+    }
+    game:GetService("ReplicatedStorage"):WaitForChild("Remote"):WaitForChild("Item"):WaitForChild("CraftItem"):InvokeServer(unpack(args))
+end
+end)
