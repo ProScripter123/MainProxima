@@ -32,7 +32,7 @@ end)
 
 Section:NewButton("Inf Universe Material", "Very Op Stuff", function()
 local items = {
-    "Universe Material"
+    "Universal Material"
 }
 
 for _, item in ipairs(items) do
