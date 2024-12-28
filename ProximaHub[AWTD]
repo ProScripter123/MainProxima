@@ -190,7 +190,21 @@ end)
 
 Section3:NewButton("Step 7", "Do All Step For Inf", function()
 local items = {
-    "Uzumaki", "Wisteria", "Red Orb", "Abyss Soul", "Demon Bullet"
+    "Uzumaki", "Wisteria", "Red Orb", "Abyss Soul", "Demon Bullet", "Yellow Orb"
+}
+
+for _, item in ipairs(items) do
+    local args = {
+        [1] = item,
+        [2] = 0 / 0
+    }
+    game:GetService("ReplicatedStorage"):WaitForChild("Remote"):WaitForChild("Item"):WaitForChild("CraftItem"):InvokeServer(unpack(args))
+end
+end)
+
+Section3:NewButton("Step 8", "You Should Have All After This", function()
+local items = {
+    "Purple Orb", "Yellow Orb", "Red Orb", "Abyss Soul", "Demon Bullet", "Yellow Orb"
 }
 
 for _, item in ipairs(items) do
