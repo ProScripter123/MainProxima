@@ -15,7 +15,8 @@ local Section2 = Tab2:NewSection("Credit To nkam For Inf Items Big Thanks To Him
 local Section2 = Tab2:NewSection("Proxima Hub Status : Not Patched")
 
 local Tab3 = Window:NewTab("Inf Craft Items")
-local Section3 = Tab3:NewSection("You Gonna Get Kick And Rejoin And Do All Step For Do it")
+local Section3 = Tab3:NewSection("All Step Is -Inf So I Removed It:)")
+local Section3 = Tab3:NewSection("This Tab Only For Those Want To Try -Inf Its Work:)")
 
 local Auto = Window:NewTab("Auto")
 local Auto = Auto:NewSection("Tell Me If Bug Still Beta")
