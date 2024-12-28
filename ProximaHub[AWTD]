@@ -190,7 +190,7 @@ end)
 
 Section3:NewButton("Step 7", "Do All Step For Inf", function()
 local items = {
-    "Uzumaki", "Wisteria"
+    "Uzumaki", "Wisteria", "Red Orb", "Abyss Soul", "Demon Bullet"
 }
 
 for _, item in ipairs(items) do
