@@ -1,4 +1,5 @@
---Don't Take This Script As Yours This Is Part Of Proxima Hub! Open Sourced Because Event Not Working
+--Wait Skids!
+--Dont Take This Script As Yours This Is The Part Of Proxima Hub Go Out Skids
 if game.CoreGui:FindFirstChild("TheChosenBad") then
   game.CoreGui.TheChosenBad:Destroy()
 end
@@ -7,42 +8,29 @@ local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/ProSc
 local Window = Library.CreateLib("Proxima Hub[AWTD]", "Ocean")
 local Tab = Window:NewTab("OP")
 local Section = Tab:NewSection("Use It Before Patched!")
-local Section = Tab:NewSection("Inf Universe Material Gonna Kick You Need Rejoin")
-local Section = Tab:NewSection("Get All Token Unit Are Limited And Gonna Removed After Key System Change")
 
 local Tab2 = Window:NewTab("Credits")
 local Section2 = Tab2:NewSection("Made By iEnz")
 local Section2 = Tab2:NewSection("Credit To Howsly For Premium Battlepass")
 local Section2 = Tab2:NewSection("Credit To nkam For Inf Items Big Thanks To Him")
-local Section2 = Tab2:NewSection("Proxima Hub Status : Not Patched")
+local Section2 = Tab2:NewSection("Proxima Hub Status : Not Patched,OP")
 
-local Tab3 = Window:NewTab("Inf Craft Items")
+local Tab3 = Window:NewTab("Inf Items")
 local Section3 = Tab3:NewSection("You Gonna Get Kick And Rejoin And Do All Step For Do it")
 
 local Auto = Window:NewTab("Auto")
 local Auto = Auto:NewSection("Tell Me If Bug Still Beta")
 
-Section:NewButton("Unlock ALL Banner(For Beginners)", "All banner will Visible To You", function()
+local Settings = Window:NewTab("Settings")
+local Settings = Settings:NewSection("Hide Identity Is Visual!")
+
+Section:NewButton("Unlock ALL Banner", "All banner will Visible To You", function()
 while task.wait() do
 print("Unlocked ALL Banner")
 game.Players.LocalPlayer.PlayerGui.GachaUI.UI.BannerList.Banner2.Visible = true
 game.Players.LocalPlayer.PlayerGui.GachaUI.UI.BannerList["Dream Banner"].Visible = true
 game.Players.LocalPlayer.PlayerGui.GachaUI.UI.BannerList["Beginning Adventurers"].Visible = true
 game.Players.LocalPlayer.PlayerGui.GachaUI.UI.BannerList.TimeUp.Visible = true
-end
-end)
-
-Section:NewButton("Inf Universe Material", "Very Op Stuff", function()
-local items = {
-    "Universal Material"
-}
-
-for _, item in ipairs(items) do
-    local args = {
-        [1] = item,
-        [2] = 0 / 0
-    }
-    game:GetService("ReplicatedStorage"):WaitForChild("Remote"):WaitForChild("Item"):WaitForChild("CraftItem"):InvokeServer(unpack(args))
 end
 end)
 
@@ -119,9 +107,10 @@ print("Stopped")
 IsRolling = false
 end)
 
-Section3:NewTextBox("Custom Inf Craft Items", "Custom Since You Don't Get Nan", function(txt)
+
+Section3:NewButton("Step 1", "Do All Step For Inf", function()
 local items = {
-    (txt)
+    "Abyss Fragment", "Ado Medal", "Ancient Orb", "Ancient Shell", "Angry Ghost", "Arrancar Medal", "Blood Tear", "Broken Heavenly Spear"
 }
 
 for _, item in ipairs(items) do
@@ -133,11 +122,104 @@ for _, item in ipairs(items) do
 end
 end)
 
-Section:NewButton("Teleport To Token Exchange", "Real", function()
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(48.97779083251953, 276.51275634765625, 94.42506408691406)
+Section3:NewButton("Step 2", "Do All Step For Inf", function()
+local items = {
+    "Calamity Orb", "Chaos Medal", "Crimson Cloud Medal", "Cursed Doll", "Cursed Orb", "Dark Spirit", "Demon Blood", "Demon Bullet"
+}
+
+for _, item in ipairs(items) do
+    local args = {
+        [1] = item,
+        [2] = 0 / 0
+    }
+    game:GetService("ReplicatedStorage"):WaitForChild("Remote"):WaitForChild("Item"):WaitForChild("CraftItem"):InvokeServer(unpack(args))
+end
 end)
 
-Section:NewButton("Get All Token Unit", "Need To Wait", function(txt)
+Section3:NewButton("Step 3", "Do All Step For Inf", function()
+local items = {
+    "Demonic Heart", "Devil Horn", "Evil Fruit", "Flame Fruit", "Freezing Ice", "God Clock", "God Ear Ring", "Grand Token", "Hollow Shard"
+}
+
+for _, item in ipairs(items) do
+    local args = {
+        [1] = item,
+        [2] = 0 / 0
+    }
+    game:GetService("ReplicatedStorage"):WaitForChild("Remote"):WaitForChild("Item"):WaitForChild("CraftItem"):InvokeServer(unpack(args))
+end
+end)
+
+Section3:NewButton("Step 4", "Do All Step For Inf", function()
+local items = {
+    "Idol Postcard", "Kriezer Medal", "Mask", "Mystical Crystal", "Ninetails Energy", "Ninja Scroll", "Peace Medal", "Phantom Mark"
+}
+
+for _, item in ipairs(items) do
+    local args = {
+        [1] = item,
+        [2] = 0 / 0
+    }
+    game:GetService("ReplicatedStorage"):WaitForChild("Remote"):WaitForChild("Item"):WaitForChild("CraftItem"):InvokeServer(unpack(args))
+end
+end)
+
+Section3:NewButton("Step 5", "Do All Step For Inf", function()
+local items = {
+    "Primal Sea", "Pure Water", "Quincy Core", "Reaper Apple", "Red Jewel", "Regeneration Bean", "Sadness Ghost", "Sea Master Key"
+}
+
+for _, item in ipairs(items) do
+    local args = {
+        [1] = item,
+        [2] = 0 / 0
+    }
+    game:GetService("ReplicatedStorage"):WaitForChild("Remote"):WaitForChild("Item"):WaitForChild("CraftItem"):InvokeServer(unpack(args))
+end
+
+end)
+
+Section3:NewButton("Step 6", "Do All Step For Inf", function()
+local items = {
+    "Sea Shell", "Smiley Ghost", "Sombra Medal", "Stone Mask", "Straw Hat", "Susanoo Energy", "The Element", "Universal Material"
+}
+
+for _, item in ipairs(items) do
+    local args = {
+        [1] = item,
+        [2] = 0 / 0
+    }
+    game:GetService("ReplicatedStorage"):WaitForChild("Remote"):WaitForChild("Item"):WaitForChild("CraftItem"):InvokeServer(unpack(args))
+end
+end)
+
+Section3:NewButton("Step 7", "Do All Step For Inf", function()
+local items = {
+    "Uzumaki", "Wisteria"
+}
+
+for _, item in ipairs(items) do
+    local args = {
+        [1] = item,
+        [2] = 0 / 0
+    }
+    game:GetService("ReplicatedStorage"):WaitForChild("Remote"):WaitForChild("Item"):WaitForChild("CraftItem"):InvokeServer(unpack(args))
+end
+end)
+
+Section:NewTextBox("Custom Token Unit", "Custom Unit All Unit?!?!", function(txt)
+local A_1 = (txt)
+local A_2 = 0 / 0
+local Event = game:GetService("ReplicatedStorage").Remote.Item.TokenExchange
+Event:InvokeServer(A_1, A_2)
+wait(1)
+local A_1 = (txt)
+local A_2 = 1
+local Event = game:GetService("ReplicatedStorage").Remote.Item.TokenExchange
+Event:InvokeServer(A_1, A_2)
+end)
+
+Section:NewButton("Get All Token Unit", "Get Unit All unit?!?!?", function()
 print("Need Sometimes")
 local A_1 = "Stone Doctor"
 local A_2 = 0 / 0
@@ -295,5 +377,47 @@ local A_1 = "Vampire Lancer"
 local A_2 = 1
 local Event = game:GetService("ReplicatedStorage").Remote.Item.TokenExchange
 Event:InvokeServer(A_1, A_2)
+end)
 
+PreviousGold = nil
+PreviousPuzzles = nil
+PreviousLevelGui = nil
+PreviousName = nil
+PreviousLevel = nil
+HideIdentity = nil
+
+PreviousGold = game.Players.LocalPlayer.Data.Gold.Value
+PreviousPuzzles = game.Players.LocalPlayer.Data.Puzzles.Value
+PreviousLevelGui = game.Players.LocalPlayer.Data.Level.Value
+PreviousName = game.Players.LocalPlayer.Character.Head.PlayerTag.Info.PlayerName.Text
+PreviousLevel = game.Players.LocalPlayer.Character.Head.PlayerTag.Info.PlayerName.Text
+
+Settings:NewButton("Hide Identity On", "Good For Scamming", function()
+
+PreviousGold = game.Players.LocalPlayer.Data.Gold.Value
+PreviousPuzzles = game.Players.LocalPlayer.Data.Puzzles.Value
+PreviousLevelGui = game.Players.LocalPlayer.Data.Level.Value
+PreviousName = game.Players.LocalPlayer.Character.Head.PlayerTag.Info.PlayerName.Text
+PreviousLevel = game.Players.LocalPlayer.Character.Head.PlayerTag.Info.Rank_Level.Text
+wait(1.5)
+HideIdentity = true
+while task.wait(0.5) do
+if HideIdentity == true then
+game.Players.LocalPlayer.Data.Gold.Value = 0 / 0
+game.Players.LocalPlayer.Data.Puzzles.Value = 0 / 0
+game.Players.LocalPlayer.Data.Level.Value = 0 / 0
+game.Players.LocalPlayer.Character.Head.PlayerTag.Info.PlayerName.Text = "ProximaUser"
+game.Players.LocalPlayer.Character.Head.PlayerTag.Info.Rank_Level.Text = "lvl:".. 0/0
+end
+end
+end)
+
+Settings:NewButton("Hide Identity Off", "Good For Scamming", function()
+HideIdentity = false
+wait(1.5)
+game.Players.LocalPlayer.Data.Gold.Value = PreviousGold 
+game.Players.LocalPlayer.Data.Puzzles.Value = PreviousPuzzles
+game.Players.LocalPlayer.Data.Level.Value = PreviousLevelGui
+game.Players.LocalPlayer.Character.Head.PlayerTag.Info.PlayerName.Text = PreviousName
+game.Players.LocalPlayer.Character.Head.PlayerTag.Info.Rank_Level.Text = PreviousLevel 
 end)
