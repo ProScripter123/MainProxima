@@ -1,3 +1,4 @@
+--Don't Take This Script As Yours This Is Part Of Proxima Hub! Open Sourced Because Event Not Working
 if game.CoreGui:FindFirstChild("TheChosenBad") then
   game.CoreGui.TheChosenBad:Destroy()
 end
@@ -7,6 +8,7 @@ local Window = Library.CreateLib("Proxima Hub[AWTD]", "Ocean")
 local Tab = Window:NewTab("OP")
 local Section = Tab:NewSection("Use It Before Patched!")
 local Section = Tab:NewSection("Inf Universe Material Gonna Kick You Need Rejoin")
+local Section = Tab:NewSection("Get All Token Unit Are Limited And Gonna Removed After Key System Change")
 
 local Tab2 = Window:NewTab("Credits")
 local Section2 = Tab2:NewSection("Made By iEnz")
@@ -15,8 +17,7 @@ local Section2 = Tab2:NewSection("Credit To nkam For Inf Items Big Thanks To Him
 local Section2 = Tab2:NewSection("Proxima Hub Status : Not Patched")
 
 local Tab3 = Window:NewTab("Inf Craft Items")
-local Section3 = Tab3:NewSection("All Step Is -Inf So I Removed It:)")
-local Section3 = Tab3:NewSection("This Tab Only For Those Want To Try -Inf Its Work:)")
+local Section3 = Tab3:NewSection("You Gonna Get Kick And Rejoin And Do All Step For Do it")
 
 local Auto = Window:NewTab("Auto")
 local Auto = Auto:NewSection("Tell Me If Bug Still Beta")
@@ -130,4 +131,169 @@ for _, item in ipairs(items) do
     }
     game:GetService("ReplicatedStorage"):WaitForChild("Remote"):WaitForChild("Item"):WaitForChild("CraftItem"):InvokeServer(unpack(args))
 end
+end)
+
+Section:NewButton("Teleport To Token Exchange", "Real", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(48.97779083251953, 276.51275634765625, 94.42506408691406)
+end)
+
+Section:NewButton("Get All Token Unit", "Need To Wait", function(txt)
+print("Need Sometimes")
+local A_1 = "Stone Doctor"
+local A_2 = 0 / 0
+local Event = game:GetService("ReplicatedStorage").Remote.Item.TokenExchange
+Event:InvokeServer(A_1, A_2)
+local A_1 = "Father of Humanity"
+local A_2 = 0 / 0
+local Event = game:GetService("ReplicatedStorage").Remote.Item.TokenExchange
+Event:InvokeServer(A_1, A_2)
+local A_1 = "Zombie Pledge"
+local A_2 = 0 / 0
+local Event = game:GetService("ReplicatedStorage").Remote.Item.TokenExchange
+Event:InvokeServer(A_1, A_2)
+local A_1 = "Void Captain"
+local A_2 = 0 / 0
+local Event = game:GetService("ReplicatedStorage").Remote.Item.TokenExchange
+Event:InvokeServer(A_1, A_2)
+local A_1 = "Lightning Amber"
+local A_2 = 0 / 0
+local Event = game:GetService("ReplicatedStorage").Remote.Item.TokenExchange
+Event:InvokeServer(A_1, A_2)
+local A_1 = "Dimensional Hitman"
+local A_2 = 0 / 0
+local Event = game:GetService("ReplicatedStorage").Remote.Item.TokenExchange
+Event:InvokeServer(A_1, A_2)
+local A_1 = "Butterfly Guard"
+local A_2 = 0 / 0
+local Event = game:GetService("ReplicatedStorage").Remote.Item.TokenExchange
+Event:InvokeServer(A_1, A_2)
+local A_1 = "White Uchigo"
+local A_2 = 0 / 0
+local Event = game:GetService("ReplicatedStorage").Remote.Item.TokenExchange
+Event:InvokeServer(A_1, A_2)
+local A_1 = "Metallic"
+local A_2 = 0 / 0
+local Event = game:GetService("ReplicatedStorage").Remote.Item.TokenExchange
+Event:InvokeServer(A_1, A_2)
+local A_1 = "Fallen Angel"
+local A_2 = 0 / 0
+local Event = game:GetService("ReplicatedStorage").Remote.Item.TokenExchange
+Event:InvokeServer(A_1, A_2)
+local A_1 = "Ichiro[Zombie]"
+local A_2 = 0 / 0
+local Event = game:GetService("ReplicatedStorage").Remote.Item.TokenExchange
+Event:InvokeServer(A_1, A_2)
+local A_1 = "Illusion Ninja"
+local A_2 = 0 / 0
+local Event = game:GetService("ReplicatedStorage").Remote.Item.TokenExchange
+Event:InvokeServer(A_1, A_2)
+local A_1 = "Smiley String"
+local A_2 = 0 / 0
+local Event = game:GetService("ReplicatedStorage").Remote.Item.TokenExchange
+Event:InvokeServer(A_1, A_2)
+local A_1 = "Blue Rose Knight"
+local A_2 = 0 / 0
+local Event = game:GetService("ReplicatedStorage").Remote.Item.TokenExchange
+Event:InvokeServer(A_1, A_2)
+local A_1 = "Sorcerer Killer"
+local A_2 = 0 / 0
+local Event = game:GetService("ReplicatedStorage").Remote.Item.TokenExchange
+Event:InvokeServer(A_1, A_2)
+local A_1 = "Portal Stallion"
+local A_2 = 0 / 0
+local Event = game:GetService("ReplicatedStorage").Remote.Item.TokenExchange
+Event:InvokeServer(A_1, A_2)
+local A_1 = "Chamney"
+local A_2 = 0 / 0
+local Event = game:GetService("ReplicatedStorage").Remote.Item.TokenExchange
+Event:InvokeServer(A_1, A_2)
+local A_1 = "Frame Sorcerer"
+local A_2 = 0 / 0
+local Event = game:GetService("ReplicatedStorage").Remote.Item.TokenExchange
+Event:InvokeServer(A_1, A_2)
+local A_1 = "Vampire Lancer"
+local A_2 = 0 / 0
+local Event = game:GetService("ReplicatedStorage").Remote.Item.TokenExchange
+Event:InvokeServer(A_1, A_2)
+
+
+
+wait(1)
+local A_1 = "Stone Doctor"
+local A_2 = 1
+local Event = game:GetService("ReplicatedStorage").Remote.Item.TokenExchange
+Event:InvokeServer(A_1, A_2)
+local A_1 = "Father of Humanity"
+local A_2 = 1
+local Event = game:GetService("ReplicatedStorage").Remote.Item.TokenExchange
+Event:InvokeServer(A_1, A_2)
+local A_1 = "Zombie Pledge"
+local A_2 = 1
+local Event = game:GetService("ReplicatedStorage").Remote.Item.TokenExchange
+Event:InvokeServer(A_1, A_2)
+local A_1 = "Void Captain"
+local A_2 = 1
+local Event = game:GetService("ReplicatedStorage").Remote.Item.TokenExchange
+Event:InvokeServer(A_1, A_2)
+local A_1 = "Lightning Amber"
+local A_2 = 1
+local Event = game:GetService("ReplicatedStorage").Remote.Item.TokenExchange
+Event:InvokeServer(A_1, A_2)
+local A_1 = "Dimensional Hitman"
+local A_2 = 1
+local Event = game:GetService("ReplicatedStorage").Remote.Item.TokenExchange
+Event:InvokeServer(A_1, A_2)
+local A_1 = "Butterfly Guard"
+local A_2 = 1
+local Event = game:GetService("ReplicatedStorage").Remote.Item.TokenExchange
+Event:InvokeServer(A_1, A_2)
+local A_1 = "White Uchigo"
+local A_2 = 1
+local Event = game:GetService("ReplicatedStorage").Remote.Item.TokenExchange
+Event:InvokeServer(A_1, A_2)
+local A_1 = "Metallic"
+local A_2 = 1
+local Event = game:GetService("ReplicatedStorage").Remote.Item.TokenExchange
+Event:InvokeServer(A_1, A_2)
+local A_1 = "Fallen Angel"
+local A_2 = 1
+local Event = game:GetService("ReplicatedStorage").Remote.Item.TokenExchange
+Event:InvokeServer(A_1, A_2)
+local A_1 = "Ichiro[Zombie]"
+local A_2 = 1
+local Event = game:GetService("ReplicatedStorage").Remote.Item.TokenExchange
+Event:InvokeServer(A_1, A_2)
+local A_1 = "Illusion Ninja"
+local A_2 = 1
+local Event = game:GetService("ReplicatedStorage").Remote.Item.TokenExchange
+Event:InvokeServer(A_1, A_2)
+local A_1 = "Smiley String"
+local A_2 = 1
+local Event = game:GetService("ReplicatedStorage").Remote.Item.TokenExchange
+Event:InvokeServer(A_1, A_2)
+local A_1 = "Blue Rose Knight"
+local A_2 = 1
+local Event = game:GetService("ReplicatedStorage").Remote.Item.TokenExchange
+Event:InvokeServer(A_1, A_2)
+local A_1 = "Sorcerer Killer"
+local A_2 = 1
+local Event = game:GetService("ReplicatedStorage").Remote.Item.TokenExchange
+Event:InvokeServer(A_1, A_2)
+local A_1 = "Portal Stallion"
+local A_2 = 1
+local Event = game:GetService("ReplicatedStorage").Remote.Item.TokenExchange
+Event:InvokeServer(A_1, A_2)
+local A_1 = "Chamney"
+local A_2 = 1
+local Event = game:GetService("ReplicatedStorage").Remote.Item.TokenExchange
+Event:InvokeServer(A_1, A_2)
+local A_1 = "Frame Sorcerer"
+local A_2 = 1
+local Event = game:GetService("ReplicatedStorage").Remote.Item.TokenExchange
+Event:InvokeServer(A_1, A_2)
+local A_1 = "Vampire Lancer"
+local A_2 = 1
+local Event = game:GetService("ReplicatedStorage").Remote.Item.TokenExchange
+Event:InvokeServer(A_1, A_2)
+
 end)
