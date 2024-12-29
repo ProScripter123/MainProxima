@@ -207,7 +207,7 @@ for _, item in ipairs(items) do
 end
 end)
 
-Section3:NewTextBox("Custom Inf Craft Items", "Real", functiontxt(txt)
+Section3:NewTextBox("Custom Inf Craft Items", "Real", function(txt)
 local items = {
    (txt)
 }
