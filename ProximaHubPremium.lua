@@ -1,9 +1,5 @@
-local SupportedGames = {6558526079, 6558526079, 6558526079}
-local SupportedScripts = {"AWTD.lua", "AWTD.lua"}
-local baseURL = "https://raw.githubusercontent.com/ProScripter123/P-X-Z-AzBzx--305--205/refs/heads/main/"
-
-if table.find(SupportedGames, game.PlaceId) then
-    for _, scriptName in pairs(SupportedScripts) do
-        loadstring(game:HttpGet(baseURL .. scriptName))()
-end)
+if game.PlaceId = 6558526079
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ProScripter123/P-X-Z-AzBzx--305--205/refs/heads/main/AWTD.lua"))()
+else
+print("Game Not Found!")
 end
