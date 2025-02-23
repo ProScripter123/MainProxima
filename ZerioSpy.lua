@@ -2,7 +2,7 @@ if game.CoreGui:FindFirstChild("RemoteSpy") then
     game.CoreGui["RemoteSpy"]:Destroy()
 end
 
--- FrontEnd // UI
+-- Proxima / UI
 
 -- Objects
 
