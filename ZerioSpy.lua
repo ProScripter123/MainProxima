@@ -1,6 +1,3 @@
---[[
-	WARNING: Heads up! This script has not been verified by ScriptBlox. Use at your own risk!
-]]
 if game.CoreGui:FindFirstChild("RemoteSpy") then
     game.CoreGui["RemoteSpy"]:Destroy()
 end
